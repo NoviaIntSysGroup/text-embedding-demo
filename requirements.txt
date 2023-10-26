@@ -1,6 +1,8 @@
+dash
 numpy
 pandas
 plotly
+kaleido
 notebook
 umap-learn[plot]
 sentence-transformers

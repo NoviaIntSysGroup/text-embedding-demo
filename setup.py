@@ -17,5 +17,6 @@ setuptools.setup(
     name="text-embedding-demo",
     version='0.1.0',
     author="Intelligent Systems Institute @ Novia",
+    packages=setuptools.find_packages(exclude=("notebooks", "data")),
     install_requires=get_install_requirements(),
 )
