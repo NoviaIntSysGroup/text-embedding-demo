@@ -1,0 +1,6 @@
+numpy
+pandas
+plotly
+notebook
+umap-learn[plot]
+sentence-transformers
