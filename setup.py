@@ -14,9 +14,11 @@ def get_install_requirements():
 
 
 setuptools.setup(
-    name="text-embedding-demo",
+    name="textdemo",
     version='0.1.0',
     author="Intelligent Systems Institute @ Novia",
-    packages=setuptools.find_packages(exclude=("notebooks", "data")),
+    # packages=setuptools.find_packages(exclude=("notebooks", "data")),
+    packages=setuptools.find_packages(where="src"),
+    package_dir={"": "src"},
     install_requires=get_install_requirements(),
 )
