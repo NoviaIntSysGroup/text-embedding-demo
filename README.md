@@ -4,7 +4,7 @@
 
 This repository demonstrates the application of text embeddings, Uniform Manifold Approximation and Projection (UMAP), and visualization tools such as Plotly Dash to gain insights into a dataset of research paper abstracts and associated metadata. 
 
-![Text Embedding Dashboard Demo](data\text-embedding-demo.gif)
+![Text Embedding Dashboard Demo](data/text-embedding-demo.gif)
 
 ## Installation
 
